@@ -1,10 +1,6 @@
 'use strict';
 var Alexa = require('alexa-sdk');
 
-//=========================================================================================================================================
-//TODO: The items below this comment need your attention.
-//=========================================================================================================================================
-
 //Replace with your app ID (OPTIONAL).  You can find this value at the top of your skill's page on http://developer.amazon.com.
 //Make sure to enclose your value in quotes, like this: var APP_ID = "amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1";
 var APP_ID = 'amzn1.ask.skill.90e5ae75-0240-4037-a191-c4c5ff805256';
@@ -15,9 +11,6 @@ var HELP_MESSAGE = "You can say tell me a fact, or, you can say exit... What can
 var HELP_REPROMPT = "What can I help you with?";
 var STOP_MESSAGE = "Goodbye!";
 
-//=========================================================================================================================================
-//TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-node-js-fact/data
-//=========================================================================================================================================
 var data = [
     "A capacitor is something that stores energy; you can create a capacitor by separating two conducts with an insulator.",
     "A PCB or Printed Circuit Board, is a board that allows signals and power to be routed across physical devices.",
@@ -74,7 +67,7 @@ var data = [
     "To get a diode to begin conducting, a certain amount of voltage is needed across it, usually 0.7V.  If too high of a current is passed in the 'wrong' direction, the depletion layer will break down and the diode will allow flow from this direction as well.",
     "Signal diodes are similar to rectifier diodes exept rectifier diodes are made to handle more power",
     "Zener diodes are made to have their depletion layer broken down and are used as stable voltage references.",
-    "Integrated circuits are circuits built specifically to be placed in a chip, sometimes known as a microchip.",
+    "Integrated circuits are circuits built specifically to be placed in a chip, sometimes known as a microchip."
 ];
 
 //=========================================================================================================================================
